@@ -22,6 +22,7 @@ gather-files/ and then executes the following command:
 'oc adm must-gather --image=quay.io/kubevirt/must-gather
 --dest-dir=gather-files/' and pipes the output to
 gather-files/must-gather.log
+
 In order to meet the maximum attachment file sizes, logs are trimmed to the
 last n seconds (defaulting to 30 minutes)
 It then creates a time-stamped archive file to compress the attachment
